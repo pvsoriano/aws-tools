@@ -1,0 +1,13 @@
+aws-athena-query-results-742605834295-us-east-2
+s3-ue2-agent-jar-delta	s3-ue2-build-cache-delta
+s3-ue2-codebuild-artifacts-delta
+s3-ue2-git-deploy-delta
+s3-ue2-mgmt-cloudformation-delta
+s3-ue2-mgmt-cloudtrail-logs-ndspoc
+s3-ue2-p-db-001-delta
+s3-ue2-p-etl-landing-001-delta
+s3-ue2-p-etl-output-001-delta
+s3-ue2-p-input-archive-001-delta
+s3-ue2-p-log-001-delta
+s3-ue2-p-output-archive-001-delta
+s3-ue2-p-web-001-delta

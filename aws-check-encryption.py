@@ -1,4 +1,5 @@
 import boto3
+from pprint import pprint
 
 # Setup session using RAP credentials
 session = boto3.Session(profile_name='ddpa-rap-poc')
@@ -25,4 +26,10 @@ RAPBucket = s3.buckets.all()
 for x in RAPBucket:
 	y = x.name
 	response = client.get_bucket_encryption(Bucket=y)
-	print(response)
+	#pprint(response)
+	#print(response)
+	for meta, rules in response.items():
+		#print("\nMeta: ", meta)
+		for key, val in rules.items():
+			print(y)
+			print(val)
